@@ -7,7 +7,7 @@ public class TicTacToe {
     static String turn;
 
     static String checkWinner(){
-        for(int i = 0; i < 7; i++){
+        for(int i = 0; i <= 7; i++){
             String line = null;//this is the line for which we are checking the results
             //here we are iterating over all the possible cases
             switch (i){
